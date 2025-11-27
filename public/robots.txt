@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vijay-kumar-portfolio-seven.vercel.app/sitemap.xml
+

@@ -1,0 +1,5601 @@
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html 
+      lang="en"
+      dir="ltr">
+  <head>
+    <meta name="google-signin-client-id" content="721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com"><meta name="google-signin-scope"
+          content="profile email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award"><meta property="og:site_name" content="Google for Developers">
+    <meta property="og:type" content="website"><meta name="theme-color" content="#fff"><meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <link rel="manifest" href="/_pwa/developers/manifest.json"
+          crossorigin="use-credentials">
+    <link rel="preconnect" href="//www.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="//apis.google.com" crossorigin>
+    <link rel="preconnect" href="//www.google-analytics.com" crossorigin><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap">
+      <link rel="stylesheet"
+            href="//fonts.googleapis.com/css2?family=Material+Icons&family=Material+Symbols+Outlined&display=block"><link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v210625d4186b230b6e4f2892d2ebde056c890c9488f9b443a741ca79ae70171d/developers/css/app.css">
+      <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/v210625d4186b230b6e4f2892d2ebde056c890c9488f9b443a741ca79ae70171d/developers/images/favicon-new.png">
+    <link rel="apple-touch-icon" href="https://www.gstatic.com/devrel-devsite/prod/v210625d4186b230b6e4f2892d2ebde056c890c9488f9b443a741ca79ae70171d/developers/images/touchicon-180-new.png"><link rel="canonical" href="https://developers.google.com/community"><link rel="search" type="application/opensearchdescription+xml"
+            title="Google for Developers" href="https://developers.google.com/s/opensearch.xml">
+      <link rel="alternate" hreflang="en"
+          href="https://developers.google.com/community" /><link rel="alternate" hreflang="x-default" href="https://developers.google.com/community" /><link rel="alternate" hreflang="ar"
+          href="https://developers.google.com/community?hl=ar" /><link rel="alternate" hreflang="bn"
+          href="https://developers.google.com/community?hl=bn" /><link rel="alternate" hreflang="zh-Hans"
+          href="https://developers.google.com/community?hl=zh-cn" /><link rel="alternate" hreflang="zh-Hant"
+          href="https://developers.google.com/community?hl=zh-tw" /><link rel="alternate" hreflang="fa"
+          href="https://developers.google.com/community?hl=fa" /><link rel="alternate" hreflang="fr"
+          href="https://developers.google.com/community?hl=fr" /><link rel="alternate" hreflang="de"
+          href="https://developers.google.com/community?hl=de" /><link rel="alternate" hreflang="he"
+          href="https://developers.google.com/community?hl=he" /><link rel="alternate" hreflang="hi"
+          href="https://developers.google.com/community?hl=hi" /><link rel="alternate" hreflang="id"
+          href="https://developers.google.com/community?hl=id" /><link rel="alternate" hreflang="it"
+          href="https://developers.google.com/community?hl=it" /><link rel="alternate" hreflang="ja"
+          href="https://developers.google.com/community?hl=ja" /><link rel="alternate" hreflang="ko"
+          href="https://developers.google.com/community?hl=ko" /><link rel="alternate" hreflang="pl"
+          href="https://developers.google.com/community?hl=pl" /><link rel="alternate" hreflang="pt-BR"
+          href="https://developers.google.com/community?hl=pt-br" /><link rel="alternate" hreflang="ru"
+          href="https://developers.google.com/community?hl=ru" /><link rel="alternate" hreflang="es-419"
+          href="https://developers.google.com/community?hl=es-419" /><link rel="alternate" hreflang="th"
+          href="https://developers.google.com/community?hl=th" /><link rel="alternate" hreflang="tr"
+          href="https://developers.google.com/community?hl=tr" /><link rel="alternate" hreflang="vi"
+          href="https://developers.google.com/community?hl=vi" /><title>Community, Network, Stories, and Programs - Google for Developers</title>
+
+<meta property="og:title" content="Community, Network, Stories, and Programs - Google for Developers"><meta name="description" content="Join a Google community for developers to network, share stories, and learn together about web and mobile app development, cloud, AI, and other topics.">
+  <meta property="og:description" content="Join a Google community for developers to network, share stories, and learn together about web and mobile app development, cloud, AI, and other topics."><meta property="og:url" content="https://developers.google.com/community"><meta property="og:image" content="https://developers.google.com/static/site-assets/images/home/developers-social-media.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675"><meta property="og:locale" content="en"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://developers.google.com/static/site-assets/images/home/developers-social-media.png"><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    
+    "headline": ""
+  }
+</script>
+    
+      <link rel="stylesheet" href="/extras.css"></head>
+  <body class="community-program-landing-page"
+        template="landing"
+        theme="white"
+        type="article"
+        
+        
+        
+        layout="full"
+        
+        
+        
+        
+        
+          
+            concierge='hide'
+          
+        
+        
+        pending>
+  
+    <devsite-progress type="indeterminate" id="app-progress"></devsite-progress>
+  
+  
+    <a href="#main-content" class="skip-link button">
+      
+      Skip to main content
+    </a>
+    <section class="devsite-wrapper">
+      <devsite-cookie-notification-bar></devsite-cookie-notification-bar><devsite-header role="banner">
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-header--inner" data-nosnippet>
+  <div class="devsite-top-logo-row-wrapper-wrapper">
+    <div class="devsite-top-logo-row-wrapper">
+      <div class="devsite-top-logo-row">
+        <button type="button" id="devsite-hamburger-menu"
+          class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+          data-label="Navigation menu button"
+          visually-hidden
+          aria-label="Open menu">
+        </button>
+        
+<div class="devsite-product-name-wrapper">
+
+  <a href="/" class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events" data-label="Site logo" track-type="globalNav"
+   track-name="googleForDevelopers" track-metadata-position="nav"
+   track-metadata-eventDetail="nav">
+  
+  <picture>
+    
+    <img src="https://www.gstatic.com/devrel-devsite/prod/v210625d4186b230b6e4f2892d2ebde056c890c9488f9b443a741ca79ae70171d/developers/images/lockup-new.svg" class="devsite-site-logo" alt="Google for Developers">
+  </picture>
+  
+</a>
+
+
+
+  
+  
+  <span class="devsite-product-name">
+    <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+      
+    
+  </li>
+  
+</ul>
+  </span>
+
+</div>
+        <div class="devsite-top-logo-row-middle">
+          <div class="devsite-header-upper-tabs">
+            
+              
+              
+  <devsite-tabs class="upper-tabs">
+
+    <nav class="devsite-tabs-wrapper" aria-label="Upper tabs">
+      
+        
+          <tab class="devsite-dropdown
+    devsite-dropdown-full
+    
+    
+    ">
+  
+    <a href="https://developers.google.com/products"
+    class="devsite-tabs-content gc-analytics-event products-dropdown-tab"
+      track-metadata-eventdetail="https://developers.google.com/products"
+    
+       track-type="nav"
+       track-metadata-position="nav - products"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Products"
+         
+           track-name="products"
+         
+       >
+    Products
+  
+    </a>
+    
+      <button
+         aria-haspopup="menu"
+         aria-expanded="false"
+         aria-label="Dropdown menu for Products"
+         track-type="nav"
+         track-metadata-eventdetail="https://developers.google.com/products"
+         track-metadata-position="nav - products"
+         track-metadata-module="primary nav"
+         
+          
+            data-category="Site-Wide Custom Events"
+          
+            data-label="Tab: Products"
+          
+            track-name="products"
+          
+        
+         class="devsite-tabs-dropdown-toggle devsite-icon devsite-icon-arrow-drop-down"></button>
+    
+  
+  <div class="devsite-tabs-dropdown" role="menu" aria-label="submenu" hidden>
+    
+    <div class="devsite-tabs-dropdown-content">
+      
+        <div class="devsite-tabs-dropdown-column
+                    products-dropdown">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Platforms and Operating Systems</li>
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="//developer.android.com"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//developer.android.com"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="platforms and operating systems"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="//developer.android.com/static/images/android-logo.svg"
+           srcset=" //developer.android.com/static/images/android-logo.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Android →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="//ai.google.dev/"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//ai.google.dev/"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="platforms and operating systems"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/static/site-assets/logo-google-g.svg"
+           srcset=" /static/site-assets/logo-google-g.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Google AI →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="//developer.chrome.com"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//developer.chrome.com"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="platforms and operating systems"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/static/homepage-assets/images/chromeos-logo.svg"
+           srcset=" /static/homepage-assets/images/chromeos-logo.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Chrome →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="//cloud.google.com/developers"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//cloud.google.com/developers"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="platforms and operating systems"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="//gstatic.com/images/branding/product/2x/google_cloud_64dp.png"
+           srcset=" //gstatic.com/images/branding/product/2x/google_cloud_64dp.png"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Google Cloud →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="//firebase.google.com"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//firebase.google.com"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="platforms and operating systems"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/_static/firebase/images/icon.svg"
+           srcset=" /_static/firebase/images/icon.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Firebase →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    products-dropdown">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Frameworks, IDEs, and SDKs</li>
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="//developer.android.com/jetpack"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//developer.android.com/jetpack"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="frameworks, ides, and sdks"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="//developer.android.com/static/images/spot-icons/jetpack-compose.svg"
+           srcset=" //developer.android.com/static/images/spot-icons/jetpack-compose.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Jetpack Compose →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="//developer.android.com/studio"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//developer.android.com/studio"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="frameworks, ides, and sdks"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="//developer.android.com/static/images/android-logo.svg"
+           srcset=" //developer.android.com/static/images/android-logo.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Android Studio →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="//aistudio.google.com"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//aistudio.google.com"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="frameworks, ides, and sdks"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/static/focus/images/aistudio-icon.png"
+           srcset="https://developers.google.com/static/focus/images/aistudio-icon_36.png 36w, https://developers.google.com/static/focus/images/aistudio-icon_48.png 48w, https://developers.google.com/static/focus/images/aistudio-icon_72.png 72w, https://developers.google.com/static/focus/images/aistudio-icon_96.png 96w, https://developers.google.com/static/focus/images/aistudio-icon_480.png 480w, https://developers.google.com/static/focus/images/aistudio-icon_720.png 720w, https://developers.google.com/static/focus/images/aistudio-icon_856.png 856w, https://developers.google.com/static/focus/images/aistudio-icon_960.png 960w, https://developers.google.com/static/focus/images/aistudio-icon_1440.png 1440w, https://developers.google.com/static/focus/images/aistudio-icon_1920.png 1920w, https://developers.google.com/static/focus/images/aistudio-icon_2880.png 2880w"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Google AI Studio →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="//antigravity.google"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//antigravity.google"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="frameworks, ides, and sdks"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/static/focus/images/antigravity-icon.png"
+           srcset="https://developers.google.com/static/focus/images/antigravity-icon_36.png 36w, https://developers.google.com/static/focus/images/antigravity-icon_48.png 48w, https://developers.google.com/static/focus/images/antigravity-icon_72.png 72w, https://developers.google.com/static/focus/images/antigravity-icon_96.png 96w, https://developers.google.com/static/focus/images/antigravity-icon_480.png 480w, https://developers.google.com/static/focus/images/antigravity-icon_720.png 720w, https://developers.google.com/static/focus/images/antigravity-icon_856.png 856w, https://developers.google.com/static/focus/images/antigravity-icon_960.png 960w, https://developers.google.com/static/focus/images/antigravity-icon_1440.png 1440w, https://developers.google.com/static/focus/images/antigravity-icon_1920.png 1920w, https://developers.google.com/static/focus/images/antigravity-icon_2880.png 2880w"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Google Antigravity →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="//flutter.dev"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//flutter.dev"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="frameworks, ides, and sdks"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/static/site-assets/logo-flutter.svg"
+           srcset=" /static/site-assets/logo-flutter.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Flutter →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    products-dropdown">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Services and Integrations</li>
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="//ai.google.dev/gemini-api/docs"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//ai.google.dev/gemini-api/docs"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="services and integrations"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/static/focus/images/gemini-icon-2025.png"
+           srcset="https://developers.google.com/static/focus/images/gemini-icon-2025_36.png 36w, https://developers.google.com/static/focus/images/gemini-icon-2025_48.png 48w, https://developers.google.com/static/focus/images/gemini-icon-2025_72.png 72w, https://developers.google.com/static/focus/images/gemini-icon-2025_96.png 96w, https://developers.google.com/static/focus/images/gemini-icon-2025_480.png 480w, https://developers.google.com/static/focus/images/gemini-icon-2025_720.png 720w, https://developers.google.com/static/focus/images/gemini-icon-2025_856.png 856w, https://developers.google.com/static/focus/images/gemini-icon-2025_960.png 960w, https://developers.google.com/static/focus/images/gemini-icon-2025_1440.png 1440w, https://developers.google.com/static/focus/images/gemini-icon-2025_1920.png 1920w, https://developers.google.com/static/focus/images/gemini-icon-2025_2880.png 2880w"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Gemini API →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="//privacysandbox.google.com/"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//privacysandbox.google.com/"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="services and integrations"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="//privacysandbox.google.com/privacy-sandbox-logo.svg"
+           srcset=" //privacysandbox.google.com/privacy-sandbox-logo.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Privacy Sandbox →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/identity"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/identity"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="services and integrations"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/static/site-assets/logo-google-g.svg"
+           srcset=" /static/site-assets/logo-google-g.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Identity
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://geminicli.com/"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://geminicli.com/"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="services and integrations"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/static/site-assets/gemini-cli-logo.png"
+           srcset="https://developers.google.com/static/site-assets/gemini-cli-logo_36.png 36w, https://developers.google.com/static/site-assets/gemini-cli-logo_48.png 48w, https://developers.google.com/static/site-assets/gemini-cli-logo_72.png 72w, https://developers.google.com/static/site-assets/gemini-cli-logo_96.png 96w, https://developers.google.com/static/site-assets/gemini-cli-logo_480.png 480w, https://developers.google.com/static/site-assets/gemini-cli-logo_720.png 720w, https://developers.google.com/static/site-assets/gemini-cli-logo_856.png 856w, https://developers.google.com/static/site-assets/gemini-cli-logo_960.png 960w, https://developers.google.com/static/site-assets/gemini-cli-logo_1440.png 1440w, https://developers.google.com/static/site-assets/gemini-cli-logo_1920.png 1920w, https://developers.google.com/static/site-assets/gemini-cli-logo_2880.png 2880w"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Gemini CLI →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/workspace"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/workspace"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="services and integrations"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/static/site-assets/logo-google-g.svg"
+           srcset=" /static/site-assets/logo-google-g.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Google Workspace
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    products-dropdown">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Growth and Monetization</li>
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="//developer.android.com/distribute/"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//developer.android.com/distribute/"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="growth and monetization"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="//gstatic.com/images/branding/product/2x/play_prism_64dp.png"
+           srcset=" //gstatic.com/images/branding/product/2x/play_prism_64dp.png"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Google Play →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/admob"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/admob"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="growth and monetization"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="//gstatic.com/images/branding/product/2x/admob_36dp.png"
+           srcset=" //gstatic.com/images/branding/product/2x/admob_36dp.png"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Google AdMob
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/google-ads"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/google-ads"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="growth and monetization"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/static/homepage-assets/images/google-ads.svg"
+           srcset=" /static/homepage-assets/images/google-ads.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Google Ads
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="//developer.chrome.com/docs/extensions"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="//developer.chrome.com/docs/extensions"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="growth and monetization"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/static/homepage-assets/images/chromeos-logo.svg"
+           srcset=" /static/homepage-assets/images/chromeos-logo.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Chrome Extensions →
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://developers.google.com/search"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://developers.google.com/search"
+                     track-metadata-position="nav - products"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="growth and monetization"
+                     
+                     tooltip
+                  >
+                    
+  
+    
+  <div class="devsite-nav-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-nav-item-icon"
+           alt=""
+           src="https://developers.google.com/static/search/images/google-search-central-logo.svg"
+           srcset=" /static/search/images/google-search-central-logo.svg"
+           sizes="100vw"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  
+
+                    <div class="devsite-nav-item-title">
+                      Google Search Central
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+</tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/program"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://developers.google.com/program"
+    
+       track-type="nav"
+       track-metadata-position="nav - developer program"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Developer Program"
+         
+           track-name="developer program"
+         
+       >
+    Developer Program
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/solutions/catalog"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://developers.google.com/solutions/catalog"
+    
+       track-type="nav"
+       track-metadata-position="nav - solutions"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Solutions"
+         
+           track-name="solutions"
+         
+       >
+    Solutions
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/events"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://developers.google.com/events"
+    
+       track-type="nav"
+       track-metadata-position="nav - events"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Events"
+         
+           track-name="events"
+         
+       >
+    Events
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/learn"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://developers.google.com/learn"
+    
+       track-type="nav"
+       track-metadata-position="nav - learn"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Learn"
+         
+           track-name="learn"
+         
+           aria-label="Learning Catalog"
+         
+       >
+    Learn
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  class="devsite-active">
+            
+    <a href="https://developers.google.com/community"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://developers.google.com/community"
+    
+       track-type="nav"
+       track-metadata-position="nav - community"
+       track-metadata-module="primary nav"
+       aria-label="Community, selected" 
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Community"
+         
+           track-name="community"
+         
+       >
+    Community
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.googleblog.com"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://developers.googleblog.com"
+    
+       track-type="nav"
+       track-metadata-position="nav - blog"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Blog"
+         
+           track-name="blog"
+         
+       >
+    Blog
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+    </nav>
+
+  </devsite-tabs>
+
+            
+           </div>
+          
+<devsite-search
+    enable-signin
+    enable-search
+    enable-suggestions
+      enable-query-completion
+    
+    enable-search-summaries
+    project-name="Community, Network, Stories, and Programs - Google for Developers"
+    tenant-name="Google for Developers"
+    project-scope="/community"
+    url-scoped="https://developers.google.com/s/results/community"
+    
+    
+    
+    >
+  <form class="devsite-search-form" action="https://developers.google.com/s/results" method="GET">
+    <div class="devsite-search-container">
+      <button type="button"
+              search-open
+              class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+              
+              aria-label="Open search"></button>
+      <div class="devsite-searchbox">
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          
+          aria-label="Search"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autocomplete="off"
+          class="devsite-search-field devsite-search-query"
+          name="q"
+          
+          placeholder="Search"
+          role="combobox"
+          type="text"
+          value=""
+          >
+          <div class="devsite-search-image material-icons" aria-hidden="true">
+            
+              <svg class="devsite-search-ai-image" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_6641_386)">
+                    <path d="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925 15.8833 10.2333 16 9.5 16C7.68333 16 6.14167 15.375 4.875 14.125C3.625 12.8583 3 11.3167 3 9.5C3 7.68333 3.625 6.15 4.875 4.9C6.14167 3.63333 7.68333 3 9.5 3C10.0167 3 10.5167 3.05833 11 3.175C11.4833 3.275 11.9417 3.43333 12.375 3.65L10.825 5.2C10.6083 5.13333 10.3917 5.08333 10.175 5.05C9.95833 5.01667 9.73333 5 9.5 5C8.25 5 7.18333 5.44167 6.3 6.325C5.43333 7.19167 5 8.25 5 9.5C5 10.75 5.43333 11.8167 6.3 12.7C7.18333 13.5667 8.25 14 9.5 14C10.6667 14 11.6667 13.625 12.5 12.875C13.35 12.1083 13.8417 11.15 13.975 10H15.975C15.925 10.6333 15.7833 11.2333 15.55 11.8C15.3333 12.3667 15.05 12.8667 14.7 13.3L21 19.6L19.6 21ZM17.5 12C17.5 10.4667 16.9667 9.16667 15.9 8.1C14.8333 7.03333 13.5333 6.5 12 6.5C13.5333 6.5 14.8333 5.96667 15.9 4.9C16.9667 3.83333 17.5 2.53333 17.5 0.999999C17.5 2.53333 18.0333 3.83333 19.1 4.9C20.1667 5.96667 21.4667 6.5 23 6.5C21.4667 6.5 20.1667 7.03333 19.1 8.1C18.0333 9.16667 17.5 10.4667 17.5 12Z" fill="#5F6368"/>
+                  </g>
+                <defs>
+                <clipPath id="clip0_6641_386">
+                <rect width="24" height="24" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            
+          </div>
+          <div class="devsite-search-shortcut-icon-container" aria-hidden="true">
+            <kbd class="devsite-search-shortcut-icon">/</kbd>
+          </div>
+      </div>
+    </div>
+  </form>
+  <button type="button"
+          search-close
+          class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+          
+          aria-label="Close search"></button>
+</devsite-search>
+
+        </div>
+
+        
+
+          
+
+          
+
+          
+
+          
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pl"
+        >Polski</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="vi"
+        >Tiếng Việt</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="tr"
+        >Türkçe</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ru"
+        >Русский</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ar"
+        >العربيّة</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fa"
+        >فارسی</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="hi"
+        >हिंदी</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="bn"
+        >বাংলা</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="th"
+        >ภาษาไทย</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+
+          
+
+        
+
+        
+          <devsite-user 
+                        
+                        
+                          enable-profiles
+                        
+                        
+                          fp-auth
+                        
+                        id="devsite-user">
+            
+              
+              <span class="button devsite-top-button" aria-hidden="true" visually-hidden>Sign in</span>
+            
+          </devsite-user>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="devsite-collapsible-section
+    ">
+    <div class="devsite-header-background">
+      
+      
+        <div class="devsite-doc-set-nav-row">
+          
+          
+            
+            
+  <devsite-tabs class="lower-tabs">
+
+    <nav class="devsite-tabs-wrapper" aria-label="Lower tabs">
+      
+        
+          <tab  class="devsite-active">
+            
+    <a href="https://developers.google.com/community"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://developers.google.com/community"
+    
+       track-type="nav"
+       track-metadata-position="nav - google developer groups"
+       track-metadata-module="primary nav"
+       aria-label="Google Developer Groups, selected" 
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Google Developer Groups"
+         
+           track-name="google developer groups"
+         
+       >
+    Google Developer Groups
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/community/experts"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://developers.google.com/community/experts"
+    
+       track-type="nav"
+       track-metadata-position="nav - google developer experts"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Google Developer Experts"
+         
+           track-name="google developer experts"
+         
+       >
+    Google Developer Experts
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/community/accelerators"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://developers.google.com/community/accelerators"
+    
+       track-type="nav"
+       track-metadata-position="nav - accelerators"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Accelerators"
+         
+           track-name="accelerators"
+         
+       >
+    Accelerators
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/community/nvidia"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://developers.google.com/community/nvidia"
+    
+       track-type="nav"
+       track-metadata-position="nav - google cloud &amp; nvidia"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Google Cloud &amp; NVIDIA"
+         
+           track-name="google cloud &amp; nvidia"
+         
+       >
+    Google Cloud &amp; NVIDIA
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+    </nav>
+
+  </devsite-tabs>
+
+          
+          
+        </div>
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+  
+
+  
+</devsite-header>
+      <devsite-book-nav scrollbars hidden>
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-book-nav-filter"
+     hidden>
+  <span class="filter-list-icon material-icons" aria-hidden="true"></span>
+  <input type="text"
+         placeholder="Filter"
+         
+         aria-label="Type to filter"
+         role="searchbox">
+  
+  <span class="filter-clear-button hidden"
+        data-title="Clear filter"
+        aria-label="Clear filter"
+        role="button"
+        tabindex="0"></span>
+</div>
+
+<nav class="devsite-book-nav devsite-nav nocontent"
+     aria-label="Side menu">
+  <div class="devsite-mobile-header">
+    <button type="button"
+            id="devsite-close-nav"
+            class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+            data-category="Site-Wide Custom Events"
+            data-label="Close navigation"
+            aria-label="Close navigation">
+    </button>
+    <div class="devsite-product-name-wrapper">
+
+  <a href="/" class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events" data-label="Site logo" track-type="globalNav"
+   track-name="googleForDevelopers" track-metadata-position="nav"
+   track-metadata-eventDetail="nav">
+  
+  <picture>
+    
+    <img src="https://www.gstatic.com/devrel-devsite/prod/v210625d4186b230b6e4f2892d2ebde056c890c9488f9b443a741ca79ae70171d/developers/images/lockup-new.svg" class="devsite-site-logo" alt="Google for Developers">
+  </picture>
+  
+</a>
+
+
+  
+      <span class="devsite-product-name">
+        
+        
+        <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+      
+    
+  </li>
+  
+</ul>
+      </span>
+    
+
+</div>
+  </div>
+
+  <div class="devsite-book-nav-wrapper">
+    <div class="devsite-mobile-nav-top">
+      
+        <ul class="devsite-nav-list">
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/products"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Products"
+      
+        track-name="products"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Products"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Products
+   </span>
+    
+  
+  </a>
+  
+
+  
+    <ul class="devsite-nav-responsive-tabs devsite-nav-has-menu
+               ">
+      
+<li class="devsite-nav-item">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Products"
+      
+        track-name="products"
+      
+    >
+  
+    <span class="devsite-nav-text" tooltip menu="Products">
+      More
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          menu="Products">
+    </span>
+    
+  
+  </span>
+  
+
+</li>
+
+    </ul>
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/program"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Developer Program"
+      
+        track-name="developer program"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Developer Program"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Developer Program
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/solutions/catalog"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Solutions"
+      
+        track-name="solutions"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Solutions"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Solutions
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/events"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Events"
+      
+        track-name="events"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Events"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Events
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/learn"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Learn"
+      
+        track-name="learn"
+      
+        aria-label="Learning Catalog"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Learn"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Learn
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/community"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              devsite-nav-active"
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Community"
+      
+        track-name="community"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Community"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Community
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+                <ul class="devsite-nav-responsive-tabs">
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/community"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              devsite-nav-active"
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Google Developer Groups"
+      
+        track-name="google developer groups"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google Developer Groups"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google Developer Groups
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/community/experts"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Google Developer Experts"
+      
+        track-name="google developer experts"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google Developer Experts"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google Developer Experts
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/community/accelerators"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Accelerators"
+      
+        track-name="accelerators"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Accelerators"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Accelerators
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/community/nvidia"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Google Cloud &amp; NVIDIA"
+      
+        track-name="google cloud &amp; nvidia"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google Cloud &amp; NVIDIA"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google Cloud &amp; NVIDIA
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                </ul>
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="https://developers.googleblog.com"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Blog"
+      
+        track-name="blog"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Blog"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Blog
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+          
+          
+        </ul>
+      
+    </div>
+    
+      <div class="devsite-mobile-nav-bottom">
+        
+        
+          
+    
+      
+      <ul class="devsite-nav-list" menu="Products"
+          aria-label="Side menu" hidden>
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Platforms and Operating Systems
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//developer.android.com"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Android →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Android →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//ai.google.dev/"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google AI →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google AI →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//developer.chrome.com"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Chrome →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Chrome →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//cloud.google.com/developers"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google Cloud →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google Cloud →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//firebase.google.com"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Firebase →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Firebase →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Frameworks, IDEs, and SDKs
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//developer.android.com/jetpack"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Jetpack Compose →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Jetpack Compose →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//developer.android.com/studio"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Android Studio →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Android Studio →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//aistudio.google.com"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google AI Studio →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google AI Studio →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//antigravity.google"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google Antigravity →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google Antigravity →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//flutter.dev"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Flutter →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Flutter →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Services and Integrations
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//ai.google.dev/gemini-api/docs"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Gemini API →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Gemini API →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//privacysandbox.google.com/"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Privacy Sandbox →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Privacy Sandbox →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/identity"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Identity"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Identity
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="https://geminicli.com/"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Gemini CLI →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Gemini CLI →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/workspace"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google Workspace"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google Workspace
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Growth and Monetization
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//developer.android.com/distribute/"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google Play →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google Play →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/admob"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google AdMob"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google AdMob
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/google-ads"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google Ads"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google Ads
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="//developer.chrome.com/docs/extensions"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Chrome Extensions →"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Chrome Extensions →
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/search"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google Search Central"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google Search Central
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+      </ul>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+        
+        
+          
+    
+  
+    
+  
+    
+  
+    
+  
+        
+      </div>
+    
+  </div>
+</nav>
+        
+      </devsite-book-nav>
+      <section id="gc-wrapper">
+        <main role="main" id="main-content" class="devsite-main-content"
+            
+              
+              
+            >
+          <div class="devsite-sidebar">
+            <div class="devsite-sidebar-content">
+                
+                <devsite-toc class="devsite-nav"
+                            role="navigation"
+                            aria-label="On this page"
+                            depth="2"
+                            scrollbars
+                  disabled></devsite-toc>
+                <devsite-recommendations-sidebar class="nocontent devsite-nav">
+                </devsite-recommendations-sidebar>
+            </div>
+          </div>
+          <devsite-content>
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="devsite-article"><style>
+      /* Styles inlined from /community/css/community-programs-styles.css */
+/*
+ * COMMUNITIES LANDING PAGE
+ */
+
+/* Community landing row base styles */
+.community-landing-row .devsite-landing-row-description {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 0;
+}
+
+.community-description-550-width .devsite-landing-row-description {
+  max-width: 550px;
+}
+
+/* Padding modifiers */
+
+.community-landing-row-no-pad {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.community-landing-row-pad-bottom {
+  padding-bottom: 100px !important;
+}
+
+.community-landing-row-pad-top {
+  padding-top: 100px !important;
+}
+
+@media screen and (max-width: 720px) {
+  .community-landing-row-pad-bottom {
+    padding-bottom: 60px !important;
+  }
+
+  .community-landing-row-pad-top {
+    padding-top: 60px !important;
+  }
+}
+
+/* Centered row */
+
+.community-landing-row-centered .devsite-landing-row-header-text {
+  text-align: center;
+}
+
+.community-landing-row-centered .devsite-landing-row-header-text h2 {
+  padding-right: 0 !important;
+}
+
+.community-landing-row-centered.devsite-landing-row-100 .devsite-landing-row-item-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 720px) {
+  .community-landing-row-centered.devsite-landing-row-100 .devsite-landing-row-item-image {
+    width: 100%;
+  }
+}
+
+
+/* Video row */
+
+.community-landing-row-video .devsite-landing-row-group {
+  background: #000;
+  color: #fff;
+  left: 0;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.community-landing-row-video-background {
+  height: 100%;
+  object-fit: cover;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.community-landing-row-video-screen {
+  background: linear-gradient(45deg, rgba(0, 0, 0, .6), transparent);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.community-landing-row-video-content {
+  padding: 320px 44px 80px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.community-landing-row-video-title,
+.community-landing-row-video-title h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.12;
+  margin-bottom: 0;
+}
+
+.community-landing-row-video-subtitle {
+  margin: 0 0 24px !important;
+}
+
+@media screen and (max-width: 720px) {
+  .community-landing-row-video-title,
+  .community-landing-row-video-title h1 {
+    font-size: 36px;
+    line-height: 1.12;
+  }
+}
+
+/* Icons row */
+
+.community-landing-row-icons .devsite-landing-row-group {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.community-landing-row-icons .devsite-landing-row-item-icon-container {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.community-landing-row-icons .devsite-landing-row-item-icon-container {
+  height: 100px;
+  width: 100px;
+}
+
+.community-landing-row-icons .devsite-landing-row-item-icon {
+  height: 100px;
+  font-size: 100px;
+  width: 100px;
+}
+
+.community-landing-row-icons .devsite-landing-row-item-description-content {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+/* Cards row */
+
+.community-landing-row-cards .devsite-landing-row-item {
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.community-landing-row-cards .devsite-landing-row-item-description h3 {
+  color: #212121;
+  font-size: 28px;
+  position: relative;
+  z-index: 1;
+}
+
+.community-landing-row-cards .devsite-landing-row-item-list,
+.community-landing-row-cards .devsite-landing-row-item-list-item {
+  margin: 0;
+}
+
+.community-landing-row-cards .devsite-landing-row-item-list-item:not(:first-of-type) {
+  margin-top: 24px;
+}
+
+.community-landing-row-cards .community-landing-row-card-item,
+.community-landing-row-cards .community-landing-row-card-item .devsite-landing-row-item-media{
+  overflow: visible;
+}
+
+.community-landing-row-card-item .devsite-landing-row-item-list-item-description h4 {
+  font: 400 18px/26px Google Sans, sans-serif;
+}
+
+.community-landing-row-card-item .devsite-landing-row-item-image {
+  position: relative;
+}
+
+.community-landing-row-card-item .devsite-landing-row-item-image::before {
+  background: center / contain no-repeat;
+  content: '';
+  display: block;
+  height: 220px;
+  position: absolute;
+  right: 20px;
+  width: 220px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.community-landing-row-card-item-professionals .devsite-landing-row-item-image::before {
+  background-image: url('/community/images/card_illo_professionals.png');
+}
+
+.community-landing-row-card-item-entrepreneurs .devsite-landing-row-item-image::before {
+  background-image: url('/community/images/card_illo_entrepreneurs.png');
+}
+
+.community-landing-row-card-item-wit .devsite-landing-row-item-image::before {
+  background-image: url('/community/images/card_illo_wit.png');
+}
+
+.community-landing-row-card-item-students .devsite-landing-row-item-image::before {
+  background-image: url('/community/images/card_illo_students.png');
+}
+
+@media screen and (max-width: 1024px) {
+  .community-landing-row-cards .devsite-landing-row-item-description h3 {
+    font-size: 24px;
+  }
+  .community-landing-row-card-item .devsite-landing-row-item-image::before {
+    height: 160px;
+    right: 8px;
+    width: 160px;
+  }
+}
+
+/* Dialog row */
+
+.community-landing-dialog {
+  left: 50%;
+  margin: 0 !important;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 960px;
+  position: absolute;
+}
+
+.community-landing-dialog .devsite-dialog-close .material-icons {
+  margin-right: 0;
+}
+
+/*
+ * COMMUNITY DIRECTORY STYLES
+ */
+
+.community-directory__item {
+  text-align: center;
+}
+
+.community-directory__item__name {
+  margin-top: 0;
+}
+
+.community-button {
+  align-self: flex-end;
+}
+
+/*
+ * COMMUNITY PROGRAM LANDING PAGE
+ */
+
+/* Header row */
+
+.community-header-landing-row {
+  position: relative;
+}
+
+.community-header-landing-row-image {
+  left: 50%;
+  max-width: 100vw;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100vw;
+}
+
+/* Hero row */
+.devsite-landing-row-description,
+.devsite-landing-row-item-description-content {
+  color: var(--devsite-ref-palette--grey700);
+}
+
+.color-scheme--dark .devsite-landing-row-description,
+.color-scheme--dark .devsite-landing-row-item-description-content {
+  color: var(--devsite-ref-palette--grey400);
+}
+
+.community-hero {
+  padding: 12px 0;
+}
+
+.community-bwai {
+  background: #f8f9fa !important;
+  padding: 0;
+}
+
+.community-bwai p {
+  font: 400 20px 'Google Sans';
+  margin: 0;
+  padding: 60px 0;
+  max-width: 810px;
+  justify-self: center;
+  position: relative;
+}
+
+@media screen and (min-width: 1400px) {
+  .community-bwai p:before {
+    content: '';
+    background: url(/community/images/bwai-arrow.svg) no-repeat;
+    position: absolute;
+    left: -240px;
+    top: 40px;
+    width: 200px;
+    height: 120px;
+  }
+}
+
+.community-hero-image-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .community-hero-image-mobile {
+    display: block;
+    justify-self: center;
+    max-height: 238px; /*to match the BwAI image height*/
+  }
+
+  .community-hero-image {
+    display: none;
+  }
+
+  .community-bwai p {
+    font-size: 16px;
+  }
+}
+
+/*To match Devfest hero image background color*/
+.devsite-landing-row.devsite-landing-row-1-up.community-hero {
+  background: #f2f1f0; 
+}
+
+/* Quote row */
+.community-quote-row {
+  margin: auto !important;
+}
+
+.community-quote-row img {
+  border-radius: 8px;
+}
+
+.community-quote-row .community-profile-image {
+  width: 50px;
+}
+
+.community-announcement-row {
+  margin-top: 40px;
+}
+.community-announcement-row h3 {
+  font: var(--devsite-h1-font);
+  letter-spacing: var(--devsite-h1-letter-spacing);
+}
+
+.community-announcement-row h3 a {
+  color: #212121;
+}
+
+.community-announcement-row span {
+  color: #212121;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.community-announcement-row p {
+  color: #212121;
+  font-size: 20px;
+  line-height: 31px;
+}
+
+.community-announcement-row p a {
+  text-decoration: underline;
+}
+
+.community-announcement-v2-row {
+  .devsite-landing-row-item-image {
+    background: transparent;
+    @media screen and (min-width: 600px) {
+      height: 400px;
+      width: 400px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-left: 175px;
+    }
+  }
+}
+
+.community-announcement-v2-row p {
+  font-size: 20px;
+  line-height: 31px;
+  padding: 50px 0;
+  max-width: 550px;
+}
+
+.community-announcement-hero-img {
+  .devsite-landing-row-item-media {
+    @media screen and (min-width: 600px) {
+      grid-column: var(--devsite-media-grid-column,3);
+    }
+    @media screen and (min-width: 840px) {
+      grid-column: var(--devsite-media-grid-column,5/span 4);
+    }
+  }
+}
+
+.community-announcement-hero h2 {
+  font-size: 54px;
+  line-height: 64px;
+  @media screen and (min-width: 840px) {
+    padding: 0 250px;
+  }
+}
+
+.community-announcement-hero span {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.community-impact-story-row img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.community-program-landing-page devsite-dialog {
+  width: 100%;
+  max-width: 1600px;
+}
+
+.community-impact-story-row {
+  .devsite-landing-row-html {
+    display: flex;
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .devsite-landing-row-item-media-left {
+    z-index: 1;
+    @media screen and (min-width: 1000px) {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 20px;
+    }
+    .img-wrapper {
+      padding: 0;
+      position: relative;
+      border-radius: 16px;
+      width: 100%;
+      height: 100%;
+      @media screen and (min-width: 840px) {
+        margin-right: 20px;
+      }
+      @media screen and (min-width: 1000px) {
+        width: 400px;
+        height: 400px;
+      }
+      /* &:after {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 64px;
+        height: 64px;
+        content: url("/community/images/play-circle.png");
+      } */
+    }
+  }
+  .devsite-landing-row-item-description h2 {
+    color: #fff;
+  }
+  .devsite-landing-row-item-description {
+    border-radius: 16px;
+    background: #4285f4;
+    .devsite-landing-row-item-body {
+      padding: 25px;
+      @media screen and (min-width: 840px) {
+        padding: 50px;
+      }
+      @media screen and (min-width: 1000px) {
+        padding: 90px 140px 130px 230px;
+      }
+    }
+    .devsite-landing-row-item-description-content {
+      color: #fff;
+      @media screen and (min-width: 840px) {
+        font-size: 30px;
+        line-height: 42px;
+      }
+    }
+  }
+  .devsite-landing-row-item-description h3 a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+  }
+}
+/* Network row */
+.community-network-row h2,
+.community-map h2,
+.become-a-leader-top h2 {
+  font: 700 40px/40px 'Google Sans';
+}
+
+.community-network-row h3 {
+  font: 400 24px/32px 'Google Sans';
+}
+
+/* Story row */
+.community-story-row img {
+  border-radius: 8px;
+}
+
+/* CTA row */
+.community-cta .devsite-landing-row-item-description-content {
+  color: #fff;
+}
+
+.community-cta h3 a {
+  font-weight: 500;
+}
+
+.community-map {
+  background: #e8f0fe;
+  padding-block: 80px;
+}
+
+.about-communities-row figure {
+  height: 260px;
+}
+
+.about-communities-row .devsite-landing-row-item:nth-of-type(1) figure {
+  background-color: #fce8e6;
+}
+
+.about-communities-row .devsite-landing-row-item:nth-of-type(2) figure {
+  background-color: #e6f4ea;
+}
+
+.about-communities-row .devsite-landing-row-item:nth-of-type(3) figure {
+  background-color: #e8f0fe;
+}
+
+.about-communities-row img {
+  height: 180px;
+  margin-block: 40px;
+  width: auto;
+}
+
+.community-network-row figure,
+.community-network-row img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.community-network-row.devsite-landing-row-cards:not(.about-communities-row) .devsite-landing-row-item {
+  border: 2px solid black;
+}
+
+.community-network-row.devsite-landing-row-cards h3 a,
+.devfest-row h3 a,
+.become-a-leader-top h3 a,
+.become-a-leader-bot h3 a {
+  color: black !important;
+}
+
+.devfest-row {
+  border-top: 2px solid #9aa0a6;
+  max-width: 1440px;
+}
+
+.devfest-row .devsite-landing-row-item-description {
+  background: url(/community/images/inward-brackets.png) top -4px left -6px
+  no-repeat, url(/community/images/more.png) bottom right 24px no-repeat;
+  height: 468px;
+}
+
+.devfest-row .devsite-landing-row-item-body {
+  height: 100%;
+  padding-right: 24px;
+}
+
+.devfest-row h3,
+.become-a-leader-top h3,
+.become-a-leader-bot h3 {
+  font: 400 32px/40px 'Google Sans' !important;
+  margin-top: auto !important;
+}
+
+.devfest-row .devsite-landing-row-item-buttons {
+  margin-block: 0 auto;
+}
+
+.community-leads-platform .devsite-landing-row-inner {
+  padding-inline: 0;
+  position: relative;
+}
+
+.community-leads-platform .devsite-landing-row-item-media {
+  margin-inline: auto 2.4vw;
+  z-index: 1;
+}
+
+.community-leads-platform .devsite-landing-row-item-image {
+  background: #4285fa;
+  padding-bottom: 16px;
+}
+
+.community-leads-platform .devsite-landing-row-item-image img {
+  height: 38vw;
+  max-height: 571px;
+  width: fit-content;
+}
+
+.community-leads-platform .devsite-landing-row-item-body {
+  background: url('/community/images/left-bracket.png') top 24px left 24px
+  no-repeat, url('/community/images/right-bracket.png') bottom 24px right 24px
+  no-repeat;
+  height: 613px;
+  padding-inline: 24px;
+}
+
+.community-leads-platform h3 {
+  font: 32px/40px 'Google Sans' !important;
+  margin-top: auto !important;
+  padding-top: 80px;
+}
+
+.community-leads-platform h3 a {
+  color: white !important;
+}
+
+.community-leads-platform span {
+  color: white;
+  font: 400 16px/24px 'Google Sans';
+}
+
+.community-leads-platform .devsite-landing-row-item-buttons {
+  margin-block: 0 auto;
+}
+
+.become-a-leader-top {
+  background: #e8f0fe;
+  padding-block: 24px 64px !important;
+}
+
+.become-a-leader-top h2 {
+  max-width: 740px;
+}
+
+.become-a-leader-top .devsite-landing-row-group {
+  background: url(/community/images/x.png) top 0 left 0 no-repeat, #e8f0fe;
+  margin-top: 0 !important;
+  padding-top: 32px;
+}
+
+.become-a-leader-bot {
+  background: #e8f0fe;
+  padding-bottom: 32px !important;
+}
+
+.become-a-leader-bot .devsite-landing-row-group {
+  background: url(/community/images/bar.png) bottom 0 right 0 no-repeat,
+  #e8f0fe;
+  padding-bottom: 32px;
+}
+
+.become-a-leader-top img,
+.become-a-leader-bot img {
+  background: #000;
+  border: 3px solid #34a853;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+@media screen and (min-width: 1521px) {
+  .community-leads-platform .devsite-landing-row-item-media {
+    margin-right: 48px;
+  }
+
+  .devfest-row {
+    margin-inline: auto;
+  }
+
+  .devfest-row .devsite-landing-row-inner {
+    padding-inline: 0;
+  }
+}
+
+@media screen and (min-width: 841px) {
+  .community-map-heading {
+    font: 700 40px/40px 'Google Sans';
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .community-leads-platform {
+    padding-block: 0;
+    height:613px;
+    width:100%;
+    position:relative;
+    background:white;
+  }
+  .community-leads-platform::after, .community-leads-platform::before {
+    height: 613px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 50%;
+  }
+  .community-leads-platform::after {
+    right: 0;
+    background-color: #4285fa;
+  }
+  .community-leads-platform::before {
+    left: 0;
+    background-color: #000;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .become-a-leader-top .devsite-landing-row-group {
+    background: unset;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .devfest-row .devsite-landing-row-item {
+    display: block;
+  }
+
+  .devfest-row .devsite-landing-row-item-body {
+    margin-top: 16px;
+    padding-top: 60px;
+  }
+  .become-a-leader-top .devsite-landing-row-item {
+    display: block;
+  }
+  .become-a-leader-bot .devsite-landing-row-item {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .community-map {
+    padding-block: 16px;
+  }
+  .devfest-row .devsite-landing-row-item-description {
+    background: url(/community/images/inward-brackets.png) top -4px left -5px
+    no-repeat;
+    height: fit-content;
+  }
+
+  .devfest-row .devsite-landing-row-item-body {
+    padding-right: 16px;
+    padding-top: 100px;
+  }
+
+  .community-leads-platform {
+    background: black;
+    padding-block: 0;
+  }
+
+  .community-leads-platform .devsite-landing-row-item-description {
+    margin-top: 0 !important;
+  }
+
+  .community-leads-platform .devsite-landing-row-item-body{
+    background: url('/community/images/left-bracket.png') top 16px left 16px
+    no-repeat, url('/community/images/right-bracket.png') bottom 16px right 16px
+    no-repeat, black;
+    padding-inline: 16px;
+  }
+
+  .community-leads-platform .devsite-landing-row-item-image{
+    padding-bottom: 52px;
+  }
+
+  .community-leads-platform .devsite-landing-row-item-image img {
+    height: auto;
+    margin-bottom: -40px;
+    margin-right: -4px;
+    max-width: 571px;
+    width: 100%;
+  }
+}
+
+      </style>
+  
+  
+  
+    <div class="devsite-banner devsite-banner-announcement nocontent"
+      
+        
+      >
+      <div class="devsite-banner-message">
+        <div class="devsite-banner-message-text">
+          <style>
+  .devsite-banner-announcement {
+    background: #1a73e8;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .devsite-banner-announcement a {
+    color: white !important;
+    font-weight: 700;
+  }
+  .devsite-banner-announcement a:link:not(.button),
+  .devsite-banner-announcement a:visited:not(.button) {
+    background: 0;
+  }
+  .devsite-banner-announcement a:hover,
+  .devsite-banner-announcement a:focus {
+    text-decoration: none;
+  }
+  .devsite-banner-announcement .devsite-banner-message-text {
+    margin: 0 auto;
+  }
+</style> <span class="nocontent">Network with a global community of developers online through our <a target="_blank" href="https://discord.com/invite/google-dev-community" class="gc-analytics-event nocontent" data-category="Announcement" data-label="Discord promotion">Discord server</a>. </span>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+
+  <div class="devsite-article-meta nocontent" role="navigation">
+    
+    
+    <ul class="devsite-breadcrumb-list"
+  
+    aria-label="Breadcrumb">
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+  <a href="https://developers.google.com/"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        Home
+      
+  </a>
+  
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+  <a href="https://developers.google.com/community"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="2"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="2"
+      
+        track-metadata-eventdetail="Community, Network, Stories, and Programs - Google for Developers"
+      
+    >
+    
+        Community, Network, Stories, and Programs - Google for Developers
+      
+  </a>
+  
+    
+  </li>
+  
+</ul>
+    
+  </div>
+  <devsite-actions hidden data-nosnippet><devsite-feature-tooltip
+      ack-key="AckCollectionsBookmarkTooltipDismiss"
+      analytics-category="Site-Wide Custom Events"
+      analytics-action-show="Callout Profile displayed"
+      analytics-action-close="Callout Profile dismissed"
+      analytics-label="Create Collection Callout"
+      class="devsite-page-bookmark-tooltip nocontent"
+      dismiss-button="true"
+      id="devsite-collections-dropdown"
+      
+      dismiss-button-text="Dismiss"
+
+      
+      close-button-text="Got it">
+
+    
+    
+      <devsite-bookmark></devsite-bookmark>
+    
+
+    <span slot="popout-heading">
+      
+      Stay organized with collections
+    </span>
+    <span slot="popout-contents">
+      
+      Save and categorize content based on your preferences.
+    </span>
+  </devsite-feature-tooltip></devsite-actions>
+  
+    
+  
+
+  <devsite-toc class="devsite-nav"
+    depth="2"
+    devsite-toc-embedded
+    disabled>
+  </devsite-toc>
+  <div class="devsite-article-body clearfix
+  devsite-no-page-title">
+
+  
+    
+  <section class="devsite-landing-row devsite-landing-row-1-up community-hero"
+           
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      <div class="devsite-landing-row-html">
+        <img class="community-hero-image" src="/static/community/images/community-hero-devfest.png" alt="Community hero join the community"> <img class="community-hero-image-mobile" src="/static/community/images/community-hero-devfest-mobile.svg" alt="Community hero join the community">
+
+      </div>
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up community-bwai"
+           
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      <div class="devsite-landing-row-html">
+        <p>
+  DevFest 2025 is here. Join the world's largest community-driven tech conference to learn,
+  build and network with fellow developers. Find a DevFest near you!
+</p>
+
+      </div>
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-100 devsite-landing-row-header-centered community-map"
+           
+    background="white"
+  
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header"
+              >
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="span-classcommunity-map-headingfind-an-event-or-group-near-youspan"
+        data-text="Find an event or group near you"
+        
+        tabindex="0">
+      
+    
+        <span class="community-map-heading">Find an event or group near you</span>
+      
+  
+    </h2>
+  
+
+          
+        </div>
+        
+
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    <style>.map-widget-chips label {
+  background: white;
+}
+
+.map-widget-filter-toggle {
+  color: #202124;
+}
+
+.map-widget-filter-toggle:hover,
+.map-widget-filter-toggle:focus {
+  background: #202124;
+  color: white;
+}
+
+.map-widget-chips label {
+  border: 2px solid #000;
+  color: #000;
+}
+
+.map-widget-chips input[type='checkbox']:checked + label {
+  background: #e8f0fe;
+  border: 2px solid #1967d2;
+  color: #1967d2;
+}
+
+[id="map-widget"] {
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+devsite-gdg-map {
+  --devsite-gdg-map-border: 2px solid black;
+  --devsite-gdg-map-result-border: 2px solid black;
+  --devsite-gdg-map-result-hover-border: 2px solid #1a73e8;
+  --devsite-gdg-map-result-padding: 15px;
+  --devsite-gdg-map-result-hover-padding: 15px;
+}</style> <devsite-gdg-map data-config="/community/community-config.json" data-filter="devfest" id="event-map"></devsite-gdg-map>
+
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-2-up devsite-landing-row-padding-medium devsite-landing-row-cards community-description-550-width community-network-row about-communities-row"
+           
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header"
+              >
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="about-the-communities"
+        data-text="About the communities"
+        
+        tabindex="0">
+      
+    
+        About the communities
+      
+  
+    </h2>
+  
+
+          
+        </div>
+        
+
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+    
+  
+  <picture>
+    
+    <img alt=""
+         
+         src="https://developers.google.com/static/community/images/about-red.png"
+         srcset="https://developers.google.com/static/community/images/about-red_36.png 36w,https://developers.google.com/static/community/images/about-red_48.png 48w,https://developers.google.com/static/community/images/about-red_72.png 72w,https://developers.google.com/static/community/images/about-red_96.png 96w,https://developers.google.com/static/community/images/about-red_480.png 480w,https://developers.google.com/static/community/images/about-red_720.png 720w,https://developers.google.com/static/community/images/about-red_856.png 856w,https://developers.google.com/static/community/images/about-red_960.png 960w,https://developers.google.com/static/community/images/about-red_1440.png 1440w,https://developers.google.com/static/community/images/about-red_1920.png 1920w,https://developers.google.com/static/community/images/about-red_2880.png 2880w"
+         
+         
+         sizes="(max-width: 600px) 100vw, (max-width: 840px) 50vw, 708px"
+         
+         loading="lazy"
+         >
+  </picture>
+  
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="google-developer-groups"
+        data-text="Google Developer Groups"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Google Developer Groups
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Google Developer Groups (GDGs) bring together developers and technologists to connect, learn, and grow alongside Google's technologies and experts. These groups support innovation and growth in the tech world by providing opportunities to learn, share knowledge, and collaborate. Some GDGs focus on specific subject areas, like applying technology to fields such as science, providing a space for developers with specialized interests to connect and collaborate.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+    
+  
+  <picture>
+    
+    <img alt=""
+         
+         src="https://developers.google.com/static/community/images/about-green.png"
+         srcset="https://developers.google.com/static/community/images/about-green_36.png 36w,https://developers.google.com/static/community/images/about-green_48.png 48w,https://developers.google.com/static/community/images/about-green_72.png 72w,https://developers.google.com/static/community/images/about-green_96.png 96w,https://developers.google.com/static/community/images/about-green_480.png 480w,https://developers.google.com/static/community/images/about-green_720.png 720w,https://developers.google.com/static/community/images/about-green_856.png 856w,https://developers.google.com/static/community/images/about-green_960.png 960w,https://developers.google.com/static/community/images/about-green_1440.png 1440w,https://developers.google.com/static/community/images/about-green_1920.png 1920w,https://developers.google.com/static/community/images/about-green_2880.png 2880w"
+         
+         
+         sizes="(max-width: 600px) 100vw, (max-width: 840px) 50vw, 708px"
+         
+         loading="lazy"
+         >
+  </picture>
+  
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="google-developer-groups-on-campus"
+        data-text="Google Developer Groups on Campus"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Google Developer Groups on Campus
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            GDGs on Campus provide learning opportunities for aspiring developers from universities and colleges around the world, allowing them to gain hands-on experience, develop essential skills, and build a strong foundation for a tech career. After graduating, GDGs on Campus members can seamlessly transition to a broader GDG community, continuing their learning and collaboration with fellow developers.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-hero devsite-landing-row-padding-medium devsite-landing-row-50 community-leads-platform"
+           
+    background="white"
+  
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item with-media web-img"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://developers.google.com/community/devfest">
+    
+  
+  <picture>
+    
+    <img alt=""
+         
+         src="https://developers.google.com/static/community/images/leads-platform.png"
+         srcset="https://developers.google.com/static/community/images/leads-platform_36.png 36w,https://developers.google.com/static/community/images/leads-platform_48.png 48w,https://developers.google.com/static/community/images/leads-platform_72.png 72w,https://developers.google.com/static/community/images/leads-platform_96.png 96w,https://developers.google.com/static/community/images/leads-platform_480.png 480w,https://developers.google.com/static/community/images/leads-platform_720.png 720w,https://developers.google.com/static/community/images/leads-platform_856.png 856w,https://developers.google.com/static/community/images/leads-platform_960.png 960w,https://developers.google.com/static/community/images/leads-platform_1440.png 1440w,https://developers.google.com/static/community/images/leads-platform_1920.png 1920w,https://developers.google.com/static/community/images/leads-platform_2880.png 2880w"
+         
+         
+         sizes="(max-width: 600px) 100vw, (max-width: 840px) 50vw, 708px"
+         
+         loading="lazy"
+         >
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="devfest"
+        data-text="DevFest"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/community/devfest">
+    
+        DevFest
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            <span> Last year, DevFest, the annual tech conference for developers organized by Google Developer Groups across the globe, centered on Responsible AI. This theme allowed for exploration of the importance of developing technologies that enhance productivity responsibly, ensuring AI serves humanity.</span>
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/community/devfest"
+  
+    class="button button-primary gc-analytics-event
+      "
+    
+    
+      
+        data-label="Community, Learn more"
+      
+        data-category="Community landing page button"
+      
+    
+    >Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-header-centered devsite-landing-row-marquee devsite-landing-row-padding-medium become-a-leader-top"
+           
+    background="white"
+  
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header"
+              >
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="become-a-leader-in-your-local-developer-community"
+        data-text="Become a leader in your local developer community"
+        
+        tabindex="0">
+      
+    
+        Become a leader in your local developer community
+      
+  
+    </h2>
+  
+
+          
+        </div>
+        
+
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://accounts.advocu.com/realms/advocu/protocol/openid-connect/auth?client_id=advocu-prod&amp;redirect_uri=https%3A%2F%2Fgdg.advocu.com%2F%3Fcommunityslug%3Dgdg&amp;state=3c422fa7-3852-4115-83c8-2e9319d0f1f6&amp;response_mode=fragment&amp;response_type=code&amp;scope=openid&amp;nonce=dbb8ef13-18e9-4421-b9fc-86b8587a9e92&amp;code_challenge=RkYyxO2NnYsNvEZrw0GZhPQSzXb1VwrZp2IvH96Sz9o&amp;code_challenge_method=S256">
+    
+  
+  <picture>
+    
+    <img alt=""
+         
+         src="https://developers.google.com/static/community/images/lead-gdg.png"
+         srcset="https://developers.google.com/static/community/images/lead-gdg_36.png 36w,https://developers.google.com/static/community/images/lead-gdg_48.png 48w,https://developers.google.com/static/community/images/lead-gdg_72.png 72w,https://developers.google.com/static/community/images/lead-gdg_96.png 96w,https://developers.google.com/static/community/images/lead-gdg_480.png 480w,https://developers.google.com/static/community/images/lead-gdg_720.png 720w,https://developers.google.com/static/community/images/lead-gdg_856.png 856w,https://developers.google.com/static/community/images/lead-gdg_960.png 960w,https://developers.google.com/static/community/images/lead-gdg_1440.png 1440w,https://developers.google.com/static/community/images/lead-gdg_1920.png 1920w,https://developers.google.com/static/community/images/lead-gdg_2880.png 2880w"
+         
+         
+         sizes="(max-width: 840px) 100vw, 952px"
+         
+         loading="lazy"
+         >
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Lead a Google Developer Group (GDG) and empower your local developer community. Before you start, check the GDG Chapter Directory to see if a chapter already exists in your city or on your campus. If one does, reach out to the organizers through the chapter page and get involved. If there isn't a GDG near you, apply to start one! Leading a GDG, whether <strong>on campus</strong> or in <strong>your city</strong>, allows you to develop leadership skills, gain recognition, expand your network and collaborate with other passionate developers. You'll create a welcoming space for learning and growth, make a positive impact on the tech world, and access valuable resources and support to tackle challenging projects and advance your career.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://accounts.advocu.com/realms/advocu/protocol/openid-connect/auth?client_id=advocu-prod&amp;redirect_uri=https%3A%2F%2Fgdg.advocu.com%2F%3Fcommunityslug%3Dgdg&amp;state=3c422fa7-3852-4115-83c8-2e9319d0f1f6&amp;response_mode=fragment&amp;response_type=code&amp;scope=openid&amp;nonce=dbb8ef13-18e9-4421-b9fc-86b8587a9e92&amp;code_challenge=RkYyxO2NnYsNvEZrw0GZhPQSzXb1VwrZp2IvH96Sz9o&amp;code_challenge_method=S256"
+  
+    class="button gc-analytics
+      "
+    
+    
+      
+        data-category="Community landing page button"
+      
+        data-label="Community, Lead a GDG"
+      
+    
+    >Lead a GDG</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-2-up devsite-landing-row-padding-medium devsite-landing-row-cards community-description-550-width community-network-row"
+           
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header"
+              >
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="additional-communities-and-programs"
+        data-text="Additional communities and programs"
+        
+        tabindex="0">
+      
+    
+        Additional communities and programs
+      
+  
+    </h2>
+  
+
+          
+        </div>
+        
+
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://developers.google.com/community/experts">
+    
+  
+  <picture>
+    
+    <img alt=""
+         
+         src="https://developers.google.com/static/community/images/gde.png"
+         srcset="https://developers.google.com/static/community/images/gde_36.png 36w,https://developers.google.com/static/community/images/gde_48.png 48w,https://developers.google.com/static/community/images/gde_72.png 72w,https://developers.google.com/static/community/images/gde_96.png 96w,https://developers.google.com/static/community/images/gde_480.png 480w,https://developers.google.com/static/community/images/gde_720.png 720w,https://developers.google.com/static/community/images/gde_856.png 856w,https://developers.google.com/static/community/images/gde_960.png 960w,https://developers.google.com/static/community/images/gde_1440.png 1440w,https://developers.google.com/static/community/images/gde_1920.png 1920w,https://developers.google.com/static/community/images/gde_2880.png 2880w"
+         
+         
+         sizes="(max-width: 600px) 100vw, (max-width: 840px) 50vw, 708px"
+         
+         loading="lazy"
+         >
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="google-developer-experts"
+        data-text="Google Developer Experts"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/community/experts">
+    
+        Google Developer Experts
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Become a recognized leader in your field. Join the Google Developer Experts program and share your passion for Google technologies. Gain global recognition, connect with a vibrant community of experts, and elevate your impact through speaking engagements, workshops, and content creation.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/community/experts"
+  
+    class="button gc-analytics
+      "
+    
+    
+      
+        data-label="Google Developer Experts, Learn more"
+      
+        aria-label="Learn more about Google Developer Experts"
+      
+        data-category="Community landing page cards"
+      
+    
+    >Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+  <a href="https://developers.google.com/community/accelerators">
+    
+  
+  <picture>
+    
+    <img alt=""
+         
+         src="https://developers.google.com/static/community/images/accelerators.png"
+         srcset="https://developers.google.com/static/community/images/accelerators_36.png 36w,https://developers.google.com/static/community/images/accelerators_48.png 48w,https://developers.google.com/static/community/images/accelerators_72.png 72w,https://developers.google.com/static/community/images/accelerators_96.png 96w,https://developers.google.com/static/community/images/accelerators_480.png 480w,https://developers.google.com/static/community/images/accelerators_720.png 720w,https://developers.google.com/static/community/images/accelerators_856.png 856w,https://developers.google.com/static/community/images/accelerators_960.png 960w,https://developers.google.com/static/community/images/accelerators_1440.png 1440w,https://developers.google.com/static/community/images/accelerators_1920.png 1920w,https://developers.google.com/static/community/images/accelerators_2880.png 2880w"
+         
+         
+         sizes="(max-width: 600px) 100vw, (max-width: 840px) 50vw, 708px"
+         
+         loading="lazy"
+         >
+  </picture>
+  
+  </a>
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="accelerator"
+        data-text="Accelerator"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/community/accelerators">
+    
+        Accelerator
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Fuel your innovation with Google’s accelerator programs. Our accelerators empower startups and developers to leverage cutting-edge Google technology to solve real-world challenges. Gain access to mentorship, resources, and funding opportunities to drive your organization's success.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/community/accelerators"
+  
+    class="button gc-analytics
+      "
+    
+    
+      
+        aria-label="Learn more about Google Accelerator program"
+      
+        data-category="Community landing page cards"
+      
+        data-label="Accelerators, Explore the programs"
+      
+    
+    >Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  
+
+  
+</div>
+
+  
+
+  <div class="devsite-floating-action-buttons"></div></article>
+
+
+
+<devsite-notification
+>
+</devsite-notification>
+
+
+  
+<div class="devsite-content-data">
+  
+  
+    <template class="devsite-content-data-template">
+      [[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],[],[],[]]
+    </template>
+  
+</div>
+            
+          </devsite-content>
+        </main>
+        <devsite-footer-promos class="devsite-footer">
+          
+            
+          
+        </devsite-footer-promos>
+        <devsite-footer-linkboxes class="devsite-footer">
+          
+            
+<nav class="devsite-footer-linkboxes nocontent" aria-label="Footer links">
+  
+  <ul class="devsite-footer-linkboxes-list">
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Connect</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//googledevelopers.blogspot.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Blog
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://goo.gle/3FReQXN"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+          
+            Bluesky
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://www.instagram.com/googlefordevs/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+          
+            Instagram
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://www.linkedin.com/showcase/googledevelopers/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            >
+            
+          
+            LinkedIn
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//twitter.com/googledevs"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            >
+            
+          
+            X (Twitter)
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//www.youtube.com/user/GoogleDevelopers"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 6)"
+            >
+            
+              
+              
+            
+          
+            YouTube
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Programs</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/program"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Google Developer Program
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/community"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+          
+            Google Developer Groups
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/community/experts"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+          
+            Google Developer Experts
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/community/accelerators"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            >
+            
+          
+            Accelerators
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/community/nvidia"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            >
+            
+              
+              
+            
+          
+            Google Cloud & NVIDIA
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Developer consoles</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.developers.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Google API Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.cloud.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+          
+            Google Cloud Platform Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//play.google.com/apps/publish"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            >
+            
+          
+            Google Play Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.firebase.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            >
+            
+          
+            Firebase Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.actions.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            >
+            
+          
+            Actions on Google Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cast.google.com/publish"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 6)"
+            >
+            
+          
+            Cast SDK Developer Console
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//chrome.google.com/webstore/developer/dashboard"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 7)"
+            >
+            
+          
+            Chrome Web Store Dashboard
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//console.home.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 8)"
+            >
+            
+              
+              
+            
+          
+            Google Home Developer Console
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+  
+</nav>
+          
+        </devsite-footer-linkboxes>
+        <devsite-footer-utility class="devsite-footer">
+          
+            
+
+<div class="devsite-footer-utility nocontent">
+  
+  
+  <nav class="devsite-footer-sites" aria-label="Other Google Developers websites">
+    <a href="https://developers.google.com/"
+       class="devsite-footer-sites-logo-link gc-analytics-event"
+       data-category="Site-Wide Custom Events"
+       data-label="Footer Google Developers Link">
+      <picture>
+        
+        <img class="devsite-footer-sites-logo"
+             src="https://www.gstatic.com/devrel-devsite/prod/v210625d4186b230b6e4f2892d2ebde056c890c9488f9b443a741ca79ae70171d/developers/images/lockup-google-for-developers.svg"
+             loading="lazy"
+             alt="Google Developers">
+      </picture>
+    </a>
+    <ul class="devsite-footer-sites-list">
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developer.android.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Android Link"
+         
+         >
+          Android
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developer.chrome.com/home"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Chrome Link"
+         
+         >
+          Chrome
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//firebase.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Firebase Link"
+         
+         >
+          Firebase
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//cloud.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Google Cloud Platform Link"
+         
+         >
+          Google Cloud Platform
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//ai.google.dev/"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Google AI Link"
+         
+         >
+          Google AI
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="/products"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer All products Link"
+         
+         >
+          All products
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+  
+
+  
+  <nav class="devsite-footer-utility-links" aria-label="Utility links">
+    
+    <ul class="devsite-footer-utility-list">
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="/terms/site-terms"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Terms link"
+         >
+          Terms
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//policies.google.com/privacy"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Privacy link"
+         >
+          Privacy
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 glue-cookie-notification-bar-control">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="#"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Manage cookies link"
+         
+           aria-hidden="true"
+         >
+          Manage cookies
+        </a>
+        
+      </li>
+      
+    </ul>
+    
+    
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pl"
+        >Polski</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="vi"
+        >Tiếng Việt</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="tr"
+        >Türkçe</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ru"
+        >Русский</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ar"
+        >العربيّة</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fa"
+        >فارسی</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="hi"
+        >हिंदी</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="bn"
+        >বাংলা</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="th"
+        >ภาษาไทย</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+  </nav>
+</div>
+          
+        </devsite-footer-utility>
+        <devsite-panel>
+          
+        </devsite-panel>
+        
+          <devsite-concierge
+  
+  
+    data-info-panel
+  
+  
+    data-ai-panel
+  
+  
+  
+  
+    data-api-explorer-panel
+  >
+</devsite-concierge>
+        
+      </section></section>
+    <devsite-sitemask></devsite-sitemask>
+    <devsite-snackbar></devsite-snackbar>
+    <devsite-tooltip ></devsite-tooltip>
+    <devsite-heading-link></devsite-heading-link>
+    <devsite-analytics>
+      
+        <script type="application/json" analytics>[{&#34;dimensions&#34;: {&#34;dimension3&#34;: false, &#34;dimension5&#34;: &#34;en&#34;, &#34;dimension4&#34;: &#34;Community, Network, Stories, and Programs - Google for Developers&#34;, &#34;dimension6&#34;: &#34;en&#34;, &#34;dimension11&#34;: false, &#34;dimension1&#34;: &#34;Signed out&#34;}, &#34;gaid&#34;: &#34;UA-24532603-1&#34;, &#34;metrics&#34;: {&#34;ratings_value&#34;: &#34;metric1&#34;, &#34;ratings_count&#34;: &#34;metric2&#34;}, &#34;purpose&#34;: 1}]</script>
+<script type="application/json" tag-management>{&#34;at&#34;: &#34;True&#34;, &#34;ga4&#34;: [{&#34;id&#34;: &#34;G-272J68FCRF&#34;, &#34;purpose&#34;: 1}], &#34;ga4p&#34;: [{&#34;id&#34;: &#34;G-272J68FCRF&#34;, &#34;purpose&#34;: 1}], &#34;gtm&#34;: [{&#34;id&#34;: &#34;GTM-T98GCPGN&#34;, &#34;purpose&#34;: 1}], &#34;parameters&#34;: {&#34;internalUser&#34;: &#34;False&#34;, &#34;language&#34;: {&#34;machineTranslated&#34;: &#34;False&#34;, &#34;requested&#34;: &#34;en&#34;, &#34;served&#34;: &#34;en&#34;}, &#34;pageType&#34;: &#34;article&#34;, &#34;projectName&#34;: &#34;Community, Network, Stories, and Programs - Google for Developers&#34;, &#34;signedIn&#34;: &#34;False&#34;, &#34;tenant&#34;: &#34;developers&#34;, &#34;recommendations&#34;: {&#34;sourcePage&#34;: &#34;&#34;, &#34;sourceType&#34;: 0, &#34;sourceRank&#34;: 0, &#34;sourceIdenticalDescriptions&#34;: 0, &#34;sourceTitleWords&#34;: 0, &#34;sourceDescriptionWords&#34;: 0, &#34;experiment&#34;: &#34;&#34;}, &#34;experiment&#34;: {&#34;ids&#34;: &#34;&#34;}}}</script>
+      
+    </devsite-analytics>
+    
+      <devsite-badger></devsite-badger>
+    
+    
+    
+    
+<script nonce="YM+SAF5vwOL7VgBFjOkR6dKxoupYMX">
+  
+  (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+    t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+    E.parentNode.insertBefore(t,E);})(window, document, 'script',
+    'https://www.gstatic.com/devrel-devsite/prod/v210625d4186b230b6e4f2892d2ebde056c890c9488f9b443a741ca79ae70171d/developers/js/app_loader.js', '[1,"en",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/v210625d4186b230b6e4f2892d2ebde056c890c9488f9b443a741ca79ae70171d","https://www.gstatic.com/devrel-devsite/prod/v210625d4186b230b6e4f2892d2ebde056c890c9488f9b443a741ca79ae70171d/developers","https://developers-dot-devsite-v2-prod.appspot.com",1,null,["/_pwa/developers/manifest.json","https://www.gstatic.com/devrel-devsite/prod/v210625d4186b230b6e4f2892d2ebde056c890c9488f9b443a741ca79ae70171d/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/v210625d4186b230b6e4f2892d2ebde056c890c9488f9b443a741ca79ae70171d/developers/images/favicon-new.png","https://www.gstatic.com/devrel-devsite/prod/v210625d4186b230b6e4f2892d2ebde056c890c9488f9b443a741ca79ae70171d/developers/images/lockup-new.svg","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap"],1,null,[1,6,8,12,14,17,21,25,50,52,63,70,75,76,80,87,91,92,93,97,98,100,101,102,103,104,105,107,108,109,110,112,113,117,118,120,122,124,125,126,127,129,130,131,132,133,134,135,136,138,140,141,147,148,149,151,152,156,157,158,159,161,163,164,168,169,170,179,180,182,183,186,191,193,196],"AIzaSyAP-jjEJBzmIyKR4F-3XITp8yM9T1gEEI8","AIzaSyB6xiKGDR5O3Ak2okS4rLkauxGUG7XP0hg","developers.google.com","AIzaSyAQk0fBONSGUqCNznf6Krs82Ap1-NV6J4o","AIzaSyCCxcqdrZ_7QMeLCRY20bh_SXdAYqy70KY",null,null,null,["DevPro__enable_embed_profile_creation","Profiles__enable_recognition_badges","DevPro__enable_free_benefits","Concierge__enable_devsite_llm_tools","Experiments__reqs_query_experiments","Concierge__enable_key_takeaways","Analytics__enable_clearcut_logging","Cloud__enable_free_trial_server_call","DevPro__enable_developer_subscriptions","DevPro__enable_enterprise","Search__enable_ai_search_summaries","Profiles__enable_playlist_community_acl","Cloud__enable_legacy_calculator_redirect","MiscFeatureFlags__enable_firebase_utm","Profiles__enable_stripe_subscription_management","TpcFeatures__enable_unmirrored_page_left_nav","Concierge__enable_tutorial_this_code","MiscFeatureFlags__enable_framebox_badge_methods","Profiles__enable_release_notes_notifications","MiscFeatureFlags__enable_appearance_cookies","Cloud__enable_cloud_shell","Concierge__enable_concierge","MiscFeatureFlags__enable_variable_operator","Profiles__require_profile_eligibility_for_signin","Profiles__enable_completecodelab_endpoint","Profiles__enable_callout_notifications","Concierge__enable_pushui","Concierge__enable_actions_menu","Profiles__enable_developer_profile_pages_as_content","BookNav__enable_tenant_cache_key","Cloud__enable_cloud_shell_fte_user_flow","Profiles__enable_awarding_url","Cloud__enable_cloudx_experiment_ids","Profiles__enable_developer_profiles_callout","TpcFeatures__proxy_prod_host","MiscFeatureFlags__gdp_dashboard_reskin_enabled","Profiles__enable_public_developer_profiles","MiscFeatureFlags__developers_footer_dark_image","Profiles__enable_complete_playlist_endpoint","Search__enable_ai_eligibility_checks","Search__enable_page_map","Profiles__enable_completequiz_endpoint","Profiles__enable_purchase_prompts","DevPro__remove_eu_tax_intake_form","DevPro__enable_code_assist","DevPro__enable_vertex_credit_card","Profiles__enable_dashboard_curated_recommendations","DevPro__enable_firebase_workspaces_card","CloudShell__cloud_code_overflow_menu","MiscFeatureFlags__enable_explain_this_code","Search__enable_suggestions_from_borg","Significatio__enable_by_tenant","Profiles__enable_user_type","Cloud__enable_llm_concierge_chat","Profiles__enable_join_program_group_endpoint","CloudShell__cloud_shell_button","Profiles__enable_auto_apply_credits","DevPro__enable_google_one_card","DevPro__enable_cloud_innovators_plus","EngEduTelemetry__enable_engedu_telemetry","MiscFeatureFlags__enable_explicit_template_dependencies","Search__enable_dynamic_content_confidential_banner","Concierge__enable_concierge_restricted","MiscFeatureFlags__emergency_css","MiscFeatureFlags__enable_project_body_class","Cloud__fast_free_trial","MiscFeatureFlags__enable_view_transitions","Search__enable_ai_search_summaries_for_all","Profiles__enable_profile_collections","Search__enable_ai_search_summaries_restricted","MiscFeatureFlags__enable_variable_operator_index_yaml","Cloud__enable_cloud_dlp_service","DevPro__enable_google_payments_buyflow","Profiles__enable_page_saving","DevPro__enable_devpro_offers","MiscFeatureFlags__enable_project_variables","Cloud__cache_serialized_dynamic_content","Concierge__enable_remove_info_panel_tags","Profiles__enable_developer_profile_benefits_ui_redesign","Concierge__enable_key_takeaways_new_ui","DevPro__enable_nvidia_credits_card","DevPro__enable_payments_init","MiscFeatureFlags__developers_footer_image","MiscFeatureFlags__enable_llms_txt"],null,null,"AIzaSyBLEMok-5suZ67qRPzx0qUtbnLmyT_kCVE","https://developerscontentserving-pa.clients6.google.com","AIzaSyCM4QpTRSqP5qI4Dvjt4OAScIN8sOUlO-k","https://developerscontentsearch-pa.clients6.google.com",1,4,null,"https://developerprofiles-pa.clients6.google.com",[1,"developers","Google for Developers","developers.google.com",null,"developers-dot-devsite-v2-prod.appspot.com",null,null,[1,1,[1],null,null,null,null,null,null,null,null,[1],null,null,null,null,null,null,[1],[1,null,null,[1,20],"/recommendations/information"],null,null,null,[1,1,1],[1,1,null,1,1,null,null,["/meridian"]],[1],null,[null,["/meridian","/youtube/devices/"]],1,null,[1]],null,[null,null,null,null,null,null,"/images/lockup-new.svg","/images/touchicon-180-new.png",null,null,null,null,1,null,null,null,null,null,null,null,null,1,null,null,null,"/images/lockup-dark-theme-new.svg",[]],[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[6,1,14,15,20,22,23,29,32,36],null,[[null,null,null,[3,7,10,2,39,17,4,32,24,11,12,13,34,15,25],null,null,[1,[["docType","Choose a content type",[["Tutorial",null,null,null,null,null,null,null,null,"Tutorial"],["Guide",null,null,null,null,null,null,null,null,"Guide"],["Sample",null,null,null,null,null,null,null,null,"Sample"]]],["product","Choose a product",[["Android",null,null,null,null,null,null,null,null,"Android"],["ARCore",null,null,null,null,null,null,null,null,"ARCore"],["ChromeOS",null,null,null,null,null,null,null,null,"ChromeOS"],["Firebase",null,null,null,null,null,null,null,null,"Firebase"],["Flutter",null,null,null,null,null,null,null,null,"Flutter"],["Assistant",null,null,null,null,null,null,null,null,"Google Assistant"],["GoogleCloud",null,null,null,null,null,null,null,null,"Google Cloud"],["GoogleMapsPlatform",null,null,null,null,null,null,null,null,"Google Maps Platform"],["GooglePay",null,null,null,null,null,null,null,null,"Google Pay & Google Wallet"],["GooglePlay",null,null,null,null,null,null,null,null,"Google Play"],["Tensorflow",null,null,null,null,null,null,null,null,"TensorFlow"]]],["category","Choose a topic",[["AiAndMachineLearning",null,null,null,null,null,null,null,null,"AI and Machine Learning"],["Data",null,null,null,null,null,null,null,null,"Data"],["Enterprise",null,null,null,null,null,null,null,null,"Enterprise"],["Gaming",null,null,null,null,null,null,null,null,"Gaming"],["Mobile",null,null,null,null,null,null,null,null,"Mobile"],["Web",null,null,null,null,null,null,null,null,"Web"]]]]]],[1,1],null,1],[[["UA-24532603-1"],["UA-22084204-5"],null,null,["UA-24532603-5"],["GTM-T98GCPGN"],null,[["G-272J68FCRF"],null,null,[["G-272J68FCRF",2]]],[["UA-24532603-1",2]],null,[["UA-24532603-5",2]],[["GTM-T98GCPGN",2]],1],[[11,8],[6,5],[13,10],[12,9],[1,1],[16,13],[5,4],[14,11],[3,2],[15,12],[4,3]],[[1,1],[2,2]]],null,4,null,null,null,null,null,null,null,null,null,null,null,null,null,"developers.devsite.google",null,null,null,null,null,[]],null,"pk_live_5170syrHvgGVmSx9sBrnWtA5luvk9BwnVcvIi7HizpwauFG96WedXsuXh790rtij9AmGllqPtMLfhe2RSwD6Pn38V00uBCydV4m",1,1,"https://developerscontentinsights-pa.clients6.google.com","AIzaSyCg-ZUslalsEbXMfIo9ZP8qufZgo3LSBDU","AIzaSyDxT0vkxnY_KeINtA4LSePJO-4MAZPMRsE","https://developers.clients6.google.com",["https://codeassist.google.com","https://code-assist-free-tier.corp.google.com"],null,"AIzaSyBQom12tzI-rybN7Sf-KfeL4nwm-Rf7PmI\n",null,"https://developerslogging.clients6.google.com"]')
+  
+</script>
+
+    <devsite-a11y-announce></devsite-a11y-announce>
+  </body>
+</html>

@@ -1,0 +1,269 @@
+/* Tailwind CSS Directives - Warnings about @tailwind and @apply are expected and can be ignored */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply !bg-transparent text-gray-900 dark:text-gray-100 transition-colors duration-300;
+  }
+  
+  /* Skip to content link - hidden by default, visible on focus */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+  
+  .focus\:not-sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: inherit;
+    margin: inherit;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+  
+  .dark .prose,
+  .dark .prose p,
+  .dark .prose strong,
+  .dark .prose li {
+    @apply text-white;
+  }
+  
+  /* Spans with explicit color classes will use their own colors */
+  /* Removed .dark .prose span to allow color classes to work */
+  
+  .dark svg:not([class*="text-"]) {
+    @apply text-white;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 !bg-transparent;
+    scroll-margin-top: 100px;
+  }
+  
+  .section-title {
+    @apply text-4xl font-bold mb-4 text-center bg-gradient-to-r from-blue-600 via-blue-500 to-green-500 bg-clip-text text-transparent dark:from-cyan-400 dark:via-blue-400 dark:to-green-400;
+  }
+  
+  .heading-gradient {
+    @apply bg-gradient-to-r from-blue-600 via-blue-500 to-green-500 bg-clip-text text-transparent dark:from-cyan-400 dark:via-blue-400 dark:to-green-400;
+    line-height: 1.2;
+    padding-bottom: 0.1em;
+  }
+  
+  .heading-gradient-shine {
+    @apply bg-gradient-to-r from-blue-600 via-blue-500 to-green-500 bg-clip-text text-transparent dark:from-cyan-400 dark:via-blue-400 dark:to-green-400;
+    filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.6)) drop-shadow(0 0 12px rgba(34, 197, 94, 0.4));
+    animation: shimmer 3s ease-in-out infinite;
+  }
+  
+  .dark .heading-gradient-shine {
+    filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.6)) drop-shadow(0 0 12px rgba(34, 197, 94, 0.5));
+    animation: shimmer-dark 3s ease-in-out infinite;
+  }
+  
+  @keyframes shimmer {
+    0%, 100% {
+      filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.6)) drop-shadow(0 0 12px rgba(34, 197, 94, 0.4));
+    }
+    50% {
+      filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.8)) drop-shadow(0 0 16px rgba(34, 197, 94, 0.6));
+    }
+  }
+  
+  @keyframes shimmer-dark {
+    0%, 100% {
+      filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.6)) drop-shadow(0 0 12px rgba(34, 197, 94, 0.5));
+    }
+    50% {
+      filter: drop-shadow(0 0 12px rgba(34, 211, 238, 0.8)) drop-shadow(0 0 16px rgba(34, 197, 94, 0.7));
+    }
+  }
+  
+  .section-subtitle {
+    @apply text-xl text-gray-600 dark:text-white mb-12 text-center max-w-3xl mx-auto;
+  }
+  
+  .card {
+    @apply rounded-lg p-6 !bg-transparent border-0 relative overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20 dark:hover:shadow-cyan-500/30 transform hover:-translate-y-1;
+  }
+  
+  .card::before {
+    content: '';
+    @apply absolute inset-0 rounded-lg bg-gradient-to-br from-blue-500/0 to-green-500/0 dark:from-cyan-500/0 dark:to-green-500/0 transition-all duration-300 opacity-0 pointer-events-none z-[-1];
+  }
+  
+  .card:hover::before {
+    @apply opacity-10 bg-gradient-to-br from-blue-500/20 to-green-500/20 dark:from-cyan-500/20 dark:to-green-500/20;
+  }
+  
+  .skill-card {
+    @apply rounded-xl p-6 !bg-transparent border-0 relative overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20 dark:hover:shadow-cyan-500/30 transform hover:-translate-y-1;
+  }
+  
+  .skill-card::before {
+    content: '';
+    @apply absolute inset-0 rounded-xl bg-gradient-to-br from-blue-500/0 to-green-500/0 dark:from-cyan-500/0 dark:to-green-500/0 transition-all duration-300 opacity-0 pointer-events-none z-[-1];
+  }
+  
+  .skill-card:hover::before {
+    @apply opacity-10 bg-gradient-to-br from-blue-500/20 to-green-500/20 dark:from-cyan-500/20 dark:to-green-500/20;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-300;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-primary-600 text-primary-600 px-6 py-3 rounded-lg font-semibold hover:bg-primary-600 hover:text-white transition-all duration-300;
+  }
+
+  /* Scroll Animation Classes */
+  .fade-in-up {
+    @apply opacity-0 translate-y-8 transition-all duration-700 ease-out;
+  }
+
+  .fade-in-up.visible {
+    @apply opacity-100 translate-y-0;
+  }
+
+  .fade-in-up-gradient {
+    @apply opacity-0 translate-y-8 transition-all duration-700 ease-out;
+    background: linear-gradient(to bottom, transparent, rgba(59, 130, 246, 0.1));
+  }
+
+  .fade-in-up-gradient.visible {
+    @apply opacity-100 translate-y-0;
+    background: linear-gradient(to bottom, transparent, rgba(59, 130, 246, 0.05));
+  }
+
+  .dark .fade-in-up-gradient {
+    background: linear-gradient(to bottom, transparent, rgba(34, 211, 238, 0.1));
+  }
+
+  .dark .fade-in-up-gradient.visible {
+    background: linear-gradient(to bottom, transparent, rgba(34, 211, 238, 0.05));
+  }
+
+  /* Navbar Gradient Background */
+  .navbar-gradient {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(34, 197, 94, 0.1) 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .dark .navbar-gradient {
+    background: linear-gradient(135deg, rgba(34, 211, 238, 0.2) 0%, rgba(34, 197, 94, 0.2) 100%);
+  }
+
+  /* Mobile Menu Animations */
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes waterDrop {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px) scale(0.8);
+    }
+    50% {
+      opacity: 0.8;
+      transform: translateY(10px) scale(1.05);
+    }
+    70% {
+      transform: translateY(-5px) scale(0.98);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  @keyframes waterDropIcon {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px) scale(0.6);
+    }
+    50% {
+      opacity: 0.7;
+      transform: translateY(8px) scale(1.1);
+    }
+    70% {
+      transform: translateY(-3px) scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .mobile-menu-enter {
+    animation: slideDown 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+
+  .mobile-menu-item {
+    animation: waterDrop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    opacity: 0;
+  }
+
+  .mobile-menu-icon {
+    animation: waterDropIcon 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    opacity: 0;
+  }
+
+  /* Theme Toggle Animations */
+  .sun-glow {
+    filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.8)) drop-shadow(0 0 12px rgba(251, 191, 36, 0.6));
+    animation: sunGlow 2s ease-in-out infinite;
+  }
+
+  .moon-rise {
+    animation: moonRise 3s ease-in-out infinite;
+  }
+
+  @keyframes sunGlow {
+    0%, 100% {
+      filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.8)) drop-shadow(0 0 12px rgba(251, 191, 36, 0.6));
+      transform: scale(1);
+    }
+    50% {
+      filter: drop-shadow(0 0 12px rgba(251, 191, 36, 1)) drop-shadow(0 0 16px rgba(251, 191, 36, 0.8));
+      transform: scale(1.05);
+    }
+  }
+
+  @keyframes moonRise {
+    0%, 100% {
+      transform: translateY(0) rotate(0deg);
+      filter: drop-shadow(0 0 4px rgba(147, 197, 253, 0.5));
+    }
+    50% {
+      transform: translateY(-3px) rotate(-5deg);
+      filter: drop-shadow(0 0 6px rgba(147, 197, 253, 0.7));
+    }
+  }
+}
+
